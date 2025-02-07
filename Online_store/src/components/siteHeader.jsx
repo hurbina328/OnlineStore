@@ -1,5 +1,6 @@
 import {Column} from "../components/column.jsx"
 import {Row} from "../components/row.jsx"
+import {Login} from "./Login.jsx"
 
 export const SiteHeader = () => {
     return (
@@ -7,9 +8,9 @@ export const SiteHeader = () => {
         <Row>
             <h1>Eccomerce App</h1>
             <Row>
-                <button>Cart</button>
+                <button>🛒</button>
                 <button>Sign Up</button>
-                <button>Log In</button>
+                <Login />
             </Row>
         </Row>
         </Column>
