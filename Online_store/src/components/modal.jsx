@@ -1,5 +1,5 @@
-import {Column} from "./components/column.jsx"
-import {Row} from "./components/row.jsx"
+import {Column} from "./column.jsx"
+import {Row} from "./row.jsx"
 
 export const Modal = ({children, setVisibility}) => {
     return (
@@ -18,7 +18,7 @@ export const Modal = ({children, setVisibility}) => {
                 onClick={() => setVisibility(false)}
             >
             </div>
-            <column
+            <Column
                 style={{
                     position: "fixed",
                     top:"50%",
@@ -33,15 +33,15 @@ export const Modal = ({children, setVisibility}) => {
                     
                 }}
             >
-            <row
+            <Row
                 style={{
                     justifyContent: "flex-end",
                 }}  
             >
                 <button onClick={() => setVisibility(false)}>X</button>
-            </row>  
+            </Row>  
             {children}
-            </column>
+            </Column>
         </div>
     )
 }

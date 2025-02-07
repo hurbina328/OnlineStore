@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Modal } from './components/modal.jsx';
+import { Modal } from "./modal.jsx";
 
 export const TestModal = () => {
     const [isVisible, setIsVisible] = useState(false);
@@ -7,8 +7,8 @@ export const TestModal = () => {
     if(!isVisible) return <button onClick={() => setIsVisible(true)}>Show Modal</button>
 
     return (
-        <modal setVisibility={setIsVisible}>
+        <Modal setVisibility={setIsVisible}>
             <p>Test Modal</p>
-        </modal>
+        </Modal>
     )
 }

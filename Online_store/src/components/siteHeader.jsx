@@ -3,15 +3,15 @@ import {Row} from "../components/row.jsx"
 
 export const SiteHeader = () => {
     return (
-        <column>
-        <row>
+        <Column>
+        <Row>
             <h1>Eccomerce App</h1>
-            <row>
+            <Row>
                 <button>Cart</button>
                 <button>Sign Up</button>
                 <button>Log In</button>
-            </row>
-        </row>
-        </column>
+            </Row>
+        </Row>
+        </Column>
     )
 }

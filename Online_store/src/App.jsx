@@ -1,14 +1,14 @@
 import './App.css'
-import { column } from './components/column'
-import { SiteHeader } from './components/siteHeader'
-import { TestModal } from './components/testModal'
+import { Column } from './components/column.jsx'
+import { SiteHeader } from './components/siteHeader.jsx'
+import { TestModal } from './components/testModal.jsx'
 
 function App() {
   return (
-    <column>
+    <Column>
       <SiteHeader />
       <TestModal />
-    </column>
+    </Column>
   )
 }
 
