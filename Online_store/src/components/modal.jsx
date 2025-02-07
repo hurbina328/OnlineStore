@@ -1,5 +1,5 @@
-import {Column} from "./column.jsx"
-import {Row} from "./row.jsx"
+import {Column} from "./components/column.jsx"
+import {Row} from "./components/row.jsx"
 
 export const Modal = ({children, setVisibility}) => {
     return (
